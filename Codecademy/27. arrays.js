@@ -1,0 +1,11 @@
+var bucketList = ['Write a CV','Take Courses','Prepare for IELTS'];
+console.log(bucketList); 
+var listItem = bucketList[3];
+console.log(listItem); 
+var hello = 'hello world';
+console.log(hello[6]);
+console.log(bucketList.length);
+console.log(hello.length);
+bucketList.push('Upload Videos','Make Souvenir');
+bucketList.pop();
+console.log(bucketList);
